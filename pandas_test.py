@@ -1,12 +1,22 @@
+# Pandas EXample
 import pandas as pd
 
-# Create a DataFrame from a list of dictionaries
-data = [{'Name':'Alice','Age':25}, {'Name':'Bob','Age':30}, {'Name':'Charlie','Age':35}]
+data = {
+    "Name":["A","B","C"],
+    "Marks":[80,70,90]
+}
+
 df = pd.DataFrame(data)
+print(df)
+print("\nDescription:\n", df.describe())
 
-# Filter rows where Age > 28
-filtered = df[df['Age'] > 28]
 
-print("Original DataFrame:\n", df)
-print("\nFiltered (Age > 28):\n", filtered)
+# Matplotlib Example
+import matplotlib.pyplot as plt
 
+marks = [80,70,90,85,60]
+plt.plot(marks)
+plt.title("Students Marks Trend")
+plt.xlabel("Student Index")
+plt.ylabel("Marks")
+plt.show()
