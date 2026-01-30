@@ -22,7 +22,7 @@ PSO (Practicle Swarm optimization)
      repeat untill best solution found 
 
 5) Parameters:
-          W(inertia) : keep Particle moving same direction
+          W(inertia) : keep Particle moving in same direction
           c1(cognitive) :trust yourself
           c2(social): trust group 
 
