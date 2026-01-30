@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 np.random.seed(42)
 X = 2 * np.random.rand(100, 1)
-y = 4 + 3 * X + np.random.randn(100, 1)
+y = 10 + 5 * X + np.random.randn(100, 1)
 
 model = LinearRegression()
 model.fit(X, y)

@@ -1,0 +1,13 @@
+concept
+
+Ant leave pheromones (chemical ) on path .
+other ant follows stronger  pheromones path
+shorter path = more pheromones quickly = more ants follows it 
+best path wins
+
+
+
+stigmergy
+
+Indirect communication through environment.
+Ant don't talk - they use pheromones trails.
