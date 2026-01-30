@@ -1,3 +1,5 @@
+ACO ( Ant colony optimization)
+
 concept
 
 Ant leave pheromones (chemical ) on path .
@@ -11,3 +13,17 @@ stigmergy
 
 Indirect communication through environment.
 Ant don't talk - they use pheromones trails.
+After many iteration - shortest path remains.
+
+
+key points:
+1)   pheromone evaporation rate(p):
+     small p(delta)= slow change
+     large P(delta) = Fast change 
+
+2)   Best for : path problems,routing ,scheduling 
+
+     Example  : Travelling Salesman
+     problem(TSP) - finds shortest city tour
+
+     Ants + pheromones + shortest path  = ACO
