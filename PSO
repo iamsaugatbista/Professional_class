@@ -1,0 +1,29 @@
+PSO (Practicle Swarm optimization)
+1) Particles fly in search space
+2) learn form :
+     personal best(pbest) - its own experience
+     global best(gbest)  - by global experience
+
+
+3) Rules:
+     seperation : avoid collision 
+     Alginment : move in the same direction 
+     cohesion : stay close to group 
+
+
+4) Working mechanism:
+     intilization  random Particles.
+     evaluate fitnesss(solution quality)
+     Update :
+          Personal best 
+          Global best
+
+     Update velocity (speed + direction)
+     repeat untill best solution found 
+
+5) Parameters:
+          W(inertia) : keep Particle moving same direction
+          c1(cognitive) :trust yourself
+          c2(social): trust group 
+
+Example of pso : FInding best location for a mobile tower
