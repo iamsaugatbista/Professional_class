@@ -1,0 +1,21 @@
+Key Terms :
+     # K : no of neighbor to consider 
+     #distance metrics : measure closeness 
+     #Voting : majority
+     #Average : calculate using mean, median 
+     
+SVM (support vector machines)  :
+     used for finding best boundary 
+
+     #support vector : data close to hyperplane 
+     #Margin :distance between hyperplane and support  vector
+     #kernal Trick : handle non-lenearly seperable data .
+
+Steps to calculate/ use algorithm
+1)Data haldling : 
+          # data types : numerical ,categorical ,image ,text etc.
+          # preprocessing  : scaling ,encoding ,handling missing values 
+2)Model selection and evaluation 
+          # train- test split ,cross - validataion 
+          # Evaluation metrics : Accuracy , Precision ,Recall ,F1 - score ,MSE
+          
